@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand|Lato:400,300,700|Open+Sans:400,600,700);
+
+* {
+	box-sizing: border-box;
+	line-height: 0;
+}
+
+body {
+   background-color: #A4B4A1;
+   font-family: 'Lato', helvetica, sans-serif;
+   height: 100%;
+   margin: 0px;
+}
+
+#canvas {
+/*   background-color: #EF976C;*/
+/*background-color: #000;*/
+
+/*background: linear-gradient(224deg, #88cdcc, #000000);*/
+/*background-size: 400% 400%;*/
+
+background: linear-gradient(320deg, #000000, #679c9b, #a4b4a1);
+background-size: 600% 600%;
+
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#canvas:hover {
+   cursor: pointer;
+}
+/*----------------------------
+/*   HOMEPAGE   
+/*----------------------------*/
+
+
+.holder {
+   width: 100%;
+}
+
+.holder:hover {
+   cursor: pointer;
+}
+
+.title {
+   position: absolute;
+   font-size: 15vh;
+   text-transform: uppercase;
+   font-family: 'Open Sans', helvetica, arial, sans-serif;
+   text-align: center;
+   font-weight: 600;
+   border: 15px double rgba(225, 225, 225, 0.4);
+   padding: 50px;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%,-50%,0);
+   transform: translate3d(-50%,-50%,0);
+
+   color: rgba(225, 225, 225, 1);
+   -webkit-text-fill-color: rgba(225, 225, 225, 0.5); /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: rgba(225, 225, 225, 1);
+
+}
+
+.title:hover {
+   /*border: 15px double rgba(225, 225, 225, 1);*/
+   -webkit-text-fill-color: rgba(225, 225, 225, 1); 
+}
+
+/*----------------------------*/
+/*   PROJECTS   */
+/*----------------------------*/
+
+
+
+/*----------------------------*/
+/*   ABOUT ME   */
+/*----------------------------*/
+
+
+#wrapper {
+   /*border: 1px solid red;*/
+   height: 800px;
+   width: 90%;
+   background-color: #c8cfc7;
+   margin: auto;
+   padding: 50px 0;
+   margin-bottom: 50px;
+   margin-top: 100%;
+}
+
+.column1, .column2 {
+   /*border: 1px solid blue;*/
+
+   width: 50%;
+   float: left;
+}
+
+.column1 {
+   border-right: 1px dotted #A4B4A1;
+}
+
+.inner-wrapper1, .inner-wrapper2 {
+   /*border: 1px solid green;*/
+   width: 80%;
+   margin: auto;
+}
+
+.profile {
+   border-radius: 100%;
+   width: 60%;
+   margin-left: 20%;
+   border: 3px solid rgba(225, 225, 225, 0.5);
+
+}
+
+.heading {
+   font-family: 'Open Sans', helvetica, arial, sans-serif;
+   font-size: 2em;
+   text-align: center;
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   margin-bottom: 20px;
+   margin-top: 20px;
+
+}
+
+.blurb {
+   text-align: justify;
+   color: #6B7569;
+   width: 80%;
+   margin: auto;
+   line-height: 1.3;
+   font-size: 1.2em;
+   font-weight: 300;
+   margin-bottom: 40px;
+}
+
+.skill {
+   width: 120px;
+   height: 120px;
+   border: 1px solid #A4B4A1;
+   border-radius: 100%;
+   text-align: center;
+   line-height: 120px;
+   display: block;
+   margin-bottom: 20px;
+   float: left;
+   margin-right: 20px;
+}
+
+.skill.fa {
+   color: #6B7569;
+   font-size: 2.5em;
+}
+
+.skill-box {
+   display: inline-block;
+   width: 100%;
+   line-height: 120px;
+}
+
+.skill-desc {
+   display: inline-block;
+   vertical-align: middle;
+   line-height: 1.3;
+   color: #6B7569;
+   font-weight: 300;
+   font-size: 1.1em;
+   font-size: 1.3vw;
+}
+
+.social {
+   text-align: center;
+}
+
+.social i {
+   font-size: 3em;
+   color: #6B7569;
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+   margin: 10px 25px;
+}
+
+.social i:hover {
+   cursor: pointer;
+}
+
+.social i:hover:nth-child(1) {
+   color: #517fa4;
+}
+
+.social i:hover:nth-child(2) {
+   color: #3b5998;
+}
+
+.social i:hover:nth-child(3) {
+   color: #0084b4;
+}
+
+.social i:hover:nth-child(4) {
+   color: #36465d;
+}
+
+
+
+
+
+
