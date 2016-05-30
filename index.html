@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/component.css">
 	<link rel="stylesheet" href="css/portfolio.css">
+	<script src="lib/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="lib/sweetalert.css">
+
 
 
 
@@ -17,7 +20,7 @@
 
 <div id="index-page">
 	<canvas id="canvas"></canvas>
-	
+
 	<div class="holder">
 		<h1 class="title">Shennah<br>Al-Jawad</h1>
 	</div>
@@ -35,7 +38,7 @@
 	</nav> -->
 
 	<div id="wrapper">
-		
+
 		<section class="column1">
 
 			<div class="inner-wrapper1">
@@ -60,14 +63,14 @@
 			</div>
 
 		</section><section class="column2">
-			
+
 			<div class="inner-wrapper2">
 				<h1 class="heading">Hi! I'm Shennah</h1>
 
 				<p class="blurb">I’m a Front End Web Developer and Digital Designer based in Sydney. <br>I love to create beautiful interactive and responsive web apps.</p>
 
 				<h1 class="heading">Skills</h1>
-					
+
 				<div class="skill-box">
 					<div class="skill fa fa-code"></div>
 						<div class="skill-desc">
@@ -76,7 +79,7 @@
 							<br> jQuery | Backbone
 						</div>
 				</div>
-				
+
 				<div class="skill-box">
 					<div class="skill fa fa-cogs"></div>
 						<div class="skill-desc">
@@ -94,7 +97,7 @@
 				</div>
 
 			</div>
-			
+
 		</section>
 
 
@@ -184,6 +187,21 @@
 	<script src="js/animation.js"></script>
 
 	<script>
+		$(document).ready(function() {
+			swal({
+			  title: "This site is old!",
+			   text: "Check out my newer (better) site.",
+			    showCancelButton: true
+			  },
+			  function(){
+			    window.location.href = 'http://shennah.com';
+				});
+			});
+
+
+	</script>
+
+	<script>
 
 	$('#about-page, #projects-page, nav').hide()
 
@@ -213,7 +231,7 @@
 		}); } );
 	});
 
-    
+
 </script>
 
 
